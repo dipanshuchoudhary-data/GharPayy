@@ -1,7 +1,18 @@
 [project]
-name = "gharpayy"
+name = "gharpayy-backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Gharpayy CRM — FastAPI Backend for lead scoring, SLA monitoring, and analytics"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "supabase>=2.10.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "apscheduler>=3.10.0",
+]
+
+[project.scripts]
+dev = "uvicorn main:app --reload --port 8000"
