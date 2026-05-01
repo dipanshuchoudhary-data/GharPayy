@@ -1,6 +1,5 @@
 -- ============================================================
 -- GHARPAYY CRM — Supabase Schema
--- Run this in Supabase SQL Editor → https://supabase.com/dashboard/project/ympejrkvfxxopgmlxcee/sql/new
 -- ============================================================
 
 -- 1. ENUMS
