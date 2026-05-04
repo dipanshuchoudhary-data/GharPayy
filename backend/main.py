@@ -21,9 +21,9 @@ from assignment import assign_lead_round_robin, get_workload_distribution
 # ── Lifespan ──────────────────────────────────────────────────
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    print("🚀 Gharpayy CRM backend started")
+    print("Gharpayy CRM backend started")
     yield
-    print("👋 Shutting down")
+    print("Shutting down")
 
 
 # ── App ───────────────────────────────────────────────────────
