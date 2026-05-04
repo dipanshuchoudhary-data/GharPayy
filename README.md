@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🏡 Gharpayy — Lead Management CRM</h1>
-  <p><em>A full-stack, production-grade Lead Management System built in 48 hours</em></p>
+  <p><em>A full-stack, production-grade Lead Management System</em></p>
   
   <p>
     <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
